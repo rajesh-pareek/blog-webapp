@@ -1,0 +1,16 @@
+<%- include("partials/header"); -%>
+  <div class="container-fluid">
+
+    <form class="" action="/compose" method="post">
+      <div class="form-group">
+        <label style="font-family: 'Merriweather', serif; font-weight:bold;">Title</label>
+        <input class="form-control" type="text" name="postTitle">
+        <label style="font-family: 'Merriweather', serif; font-weight:bold;">Post</label>
+        <textarea class="form-control" name="postBody" rows="5" cols="30"></textarea>
+      </div>
+      <button style="background-color: #00cdac; margin:10px 0px 10px 10px;" class="btn btn-primary" type="submit" name="button">Publish</button>
+    </form>
+  </div>
+
+
+  <%- include("partials/footer"); -%>
